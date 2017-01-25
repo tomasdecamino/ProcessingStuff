@@ -1,0 +1,61 @@
+void drawTriangle(float x, float y, float s, float a) {
+  float b = s-a;
+  noFill();
+  stroke(#0518B4);
+  rect(x, y, s/20, s/20);
+  pushMatrix();
+  translate(x+a, y);
+  fill(0);
+  if (a>10) {
+    text("b", -(a+30), b/2);
+    text("a", -a/2, -10);
+  }
+  float ang = atan2(b, a);
+  pushMatrix();
+  rotate(HALF_PI-ang);
+  float h =sqrt(sq(a)+sq(b));
+  text("h", 5, s/2-textWidth("h")); 
+  popMatrix();
+  noFill();
+  stroke(#EA4040);
+  strokeWeight(4);
+  triangle(0, 0, -a, 0, -a, b); 
+  popMatrix();
+}
+//dibuja arbol de pitagoras
+void drawPythagoras(int x, int y, int h, int levels) {
+  rect(x, y, h, h);
+  catetos(x, y, h, levels);
+}
+void catetos(float x, float y, float h, int level) {
+  if (level>0) {
+    pushMatrix();
+    translate(x, y);
+    //calcuates sides abd angles
+    float a = map(mouseX, 0, width, 0, h);
+    float b=sqrt(sq(h)-sq(a));
+    float ang = PI+atan2(b, a);
+    float angA = TWO_PI+(ang);
+    //rect(0,0,h,h);
+
+    //draws right squares
+    pushMatrix();
+    translate(h, 0);
+    rotate(ang);
+    rect(0, 0, a, a);
+    rotate(PI);
+    catetos(-a+random(-1, 1), -a+random(-1, 1), a, level-1);
+    popMatrix();
+
+    //draws left square
+    pushMatrix();
+    rotate(angA);
+    rect(0, 0, b, b);
+    translate(b, 0);
+    rotate(HALF_PI);
+    catetos(0+random(-1, 1), 0+random(-1, 1), b, level-1);
+    popMatrix();  
+
+    popMatrix();
+  }
+}

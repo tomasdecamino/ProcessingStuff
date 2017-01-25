@@ -1,0 +1,66 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<g transform='translate(-0.000000, -0.000000)'>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)' clip-path='url(#cp1)'>
+<clipPath id='cp1'><polygon points='-2,-2 -2,304 318,304 318,-2 ' /></clipPath>
+<text x='0' y='153' font-family='SVGMathematica2Mono' font-size='13px' fill='rgb(0%,0%,0%)'>&#xf03a;</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)' clip-path='url(#cp2)'>
+<clipPath id='cp2'><polygon points='8,1 8,301 308,301 308,1 ' /></clipPath>
+<path stroke='none' opacity='1' fill='rgb(80%,80%,80%)' fill-rule='evenodd' d='M 8,1 L 308,1 L 308,301 L 8,301 L 8,1 Z '/>
+<path stroke='none' opacity='1' fill='rgb(17.6471%,39.2157%,83.9216%)' fill-rule='evenodd' d='M 8,1 L 308,1 L 308,301 L 8,301 L 8,1 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 136.35,116.93 L 149.75,130.6 L 149.75,109.17 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 136.35,116.93 L 149.75,130.6 L 149.75,109.17 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 157.78,117.36 L 149.75,109.17 L 149.75,130.6 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 157.78,117.36 L 149.75,109.17 L 149.75,130.6 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 155.07,139.89 L 154.88,159.02 L 170.03,143.87 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 155.07,139.89 L 154.88,159.02 L 170.03,143.87 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 169.91,155.35 L 170.03,143.87 L 154.88,159.02 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 169.91,155.35 L 170.03,143.87 L 154.88,159.02 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 152.07,169.35 L 138.4,182.75 L 159.83,182.75 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 152.07,169.35 L 138.4,182.75 L 159.83,182.75 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 151.64,190.78 L 159.83,182.75 L 138.4,182.75 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 151.64,190.78 L 159.83,182.75 L 138.4,182.75 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 129.11,188.07 L 109.98,187.88 L 125.13,203.03 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 129.11,188.07 L 109.98,187.88 L 125.13,203.03 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 113.65,202.91 L 125.13,203.03 L 109.98,187.88 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 113.65,202.91 L 125.13,203.03 L 109.98,187.88 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 99.65,185.07 L 86.25,171.4 L 86.25,192.83 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 99.65,185.07 L 86.25,171.4 L 86.25,192.83 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 78.22,184.64 L 86.25,192.83 L 86.25,171.4 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 78.22,184.64 L 86.25,192.83 L 86.25,171.4 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 80.93,162.11 L 81.12,142.98 L 65.97,158.13 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 80.93,162.11 L 81.12,142.98 L 65.97,158.13 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 66.09,146.65 L 65.97,158.13 L 81.12,142.98 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 66.09,146.65 L 65.97,158.13 L 81.12,142.98 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 83.93,132.65 L 97.6,119.25 L 76.17,119.25 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 83.93,132.65 L 97.6,119.25 L 76.17,119.25 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 84.36,111.22 L 76.17,119.25 L 97.6,119.25 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 84.36,111.22 L 76.17,119.25 L 97.6,119.25 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 106.89,113.93 L 126.02,114.12 L 110.87,98.97 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 106.89,113.93 L 126.02,114.12 L 110.87,98.97 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 122.35,99.09 L 110.87,98.97 L 126.02,114.12 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 122.35,99.09 L 110.87,98.97 L 126.02,114.12 Z '/>
+<path stroke='none' opacity='1' fill='rgb(100%,100%,100%)' fill-rule='evenodd' d='M 155.95,151.38 C 155.74,172.34 138.58,189.16 117.62,188.95 C 96.66,188.74 79.84,171.58 80.05,150.62 C 80.26,129.66 97.42,112.84 118.38,113.05 C 139.34,113.26 156.16,130.42 155.95,151.38 Z '/>
+<path fill='none' stroke-opacity='1' stroke-width='1px' stroke='rgb(100%,100%,100%)' d='M 155.95,151.38 C 155.74,172.34 138.58,189.16 117.62,188.95 C 96.66,188.74 79.84,171.58 80.05,150.62 C 80.26,129.66 97.42,112.84 118.38,113.05 C 139.34,113.26 156.16,130.42 155.95,151.38 Z '/>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)' clip-path='url(#cp3)'>
+<clipPath id='cp3'><polygon points='-2,-2 -2,304 318,304 318,-2 ' /></clipPath>
+<text x='308' y='153' font-family='SVGMathematica2Mono' font-size='13px' fill='rgb(0%,0%,0%)'>&#xf03e;</text>
+</g>
+</g>
+<defs>
+<font id="SVGMathematica2MonoFont" horiz-adv-x="1024">
+	<font-face font-family='SVGMathematica2Mono' units-per-em='2048' font-weight='normal' />
+	<missing-glyph d='M128 0V1638H896V0H128ZM256 128H768V1510H256V128Z' />
+<glyph unicode='&#61498;'
+       glyph-name='colon'
+       horiz-adv-x='913'
+       d='M815 -1196Q815 -1204 805 -1204Q799 -1204 778 -1198Q633 -1154 529 -1015Q367 -798 367 -406V-66Q367 372 98 526V528Q367 685 367 1122V1462Q367 1855 529 2072Q633 2211 778 2255Q799 2261 805 2261Q815 2261 815 2253Q815 2237 782 2220Q643 2147 582 1962Q524 1786 524 1466V1118Q524 965 466 810Q388 603 238 528Q388 454 466 246Q524 92 524 -63V-410Q524 -729 582 -905Q643 -1090 782 -1163Q815 -1180 815 -1196Z'/>
+<glyph unicode='&#61502;'
+       glyph-name='greater'
+       horiz-adv-x='913'
+       d='M815 526Q547 372 547 -66V-406Q547 -798 385 -1015Q281 -1154 135 -1198Q115 -1204 109 -1204Q98 -1204 98 -1196Q98 -1180 131 -1163Q271 -1090 332 -905Q389 -729 389 -410V-63Q389 92 447 246Q525 454 676 528Q525 603 447 810Q389 965 389 1118V1466Q389 1786 332 1962Q271 2147 131 2220Q98 2237 98 2253Q98 2261 109 2261Q115 2261 135 2255Q281 2211 385 2072Q547 1855 547 1462V1122Q547 685 815 528V526Z'/>
+</font>
+</defs>
+</svg>
