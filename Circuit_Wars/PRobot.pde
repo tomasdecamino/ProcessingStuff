@@ -1,5 +1,5 @@
 class PRobot {
-  float v=4;
+  float v=8;
   float dir=0;
   PVector pos;
 
@@ -15,7 +15,7 @@ class PRobot {
 
   void sense(color c) {
     if (c==-1) {
-      dir-=random(HALF_PI-1,HALF_PI+1);
+      dir-=random(-HALF_PI+1.5,HALF_PI+1.5);
     }
   }
 
