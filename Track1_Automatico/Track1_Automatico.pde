@@ -47,6 +47,7 @@ void draw() {
     stroke(#68A1F0, 200);
     ellipse(mouseX, mouseY, d-10, d-10);
     track.pan(map(mouseX,0,width,-1.0,1.0));
+    track.amp(map(mouseY,0,height,0.001,0.2));
   }
 
   pushMatrix();
