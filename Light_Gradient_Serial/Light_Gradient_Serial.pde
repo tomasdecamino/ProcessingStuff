@@ -12,7 +12,7 @@ void setup()
 {
   size(700, 700);
   println(Serial.list());
-  port = new Serial(this,"/dev/ttyACM0", 9600);
+  port = new Serial(this,"/dev/tty.usbmodem14241", 9600);
   port.clear();
   port.bufferUntil('\n');
   ellipseMode(CENTER);
