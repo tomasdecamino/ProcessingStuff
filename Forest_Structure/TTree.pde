@@ -1,7 +1,7 @@
 // @author: Tomas de Camino Beck
 
 class TTree {
-  int treeSize =10;
+  int treeSize =20;
   int treeShape=0;
   PVector treePos;
 

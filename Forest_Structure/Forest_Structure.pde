@@ -1,6 +1,6 @@
 // @author: Tomas de Camino Beck
 
-int nTree=3000;
+int nTree=5000;
 
 TTree[] tree;
 
@@ -33,8 +33,8 @@ void draw() {
     tree[i].drawTree();
   }
   popMatrix();
-   camera(mouseX, mouseY, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
-  text(map(mouseX, 0, width, -TWO_PI, TWO_PI),10,10);
+  camera(mouseX, mouseY, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
+  text(map(mouseX, 0, width, -TWO_PI, TWO_PI), 10, 10);
   //saveFrame("frames/####.jpg");
   if (keyPressed)saveFrame("frames/photo/####.jpg");
 }
