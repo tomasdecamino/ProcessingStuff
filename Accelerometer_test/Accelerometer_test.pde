@@ -8,7 +8,7 @@ String data="0,0,0";
 void setup() {
   size(800,600,P3D);
   println(Serial.list());
-  port = new Serial(this, Serial.list()[5], 9600);
+  port = new Serial(this,"/dev/cu.usbmodem14241", 9600);
   port.clear();
   port.bufferUntil('\n');
   smooth(8);
@@ -28,14 +28,14 @@ void draw() {
   //noFill();
   strokeWeight(2);
   stroke(210,150);
-  //sphereDetail(25);
+  sphereDetail(10);
   noFill();
   sphere(150);
   fill(195,31,73);
   rect(0,0,400,400);
   rotateX(HALF_PI-coord[0]);
   rotateY(HALF_PI-coord[1]);
-  rect(0,0,400,400);
+  //rect(0,0,400,400);
   popMatrix();
 
 }
