@@ -60,6 +60,7 @@ void draw() {
   fill(0);
   //text(mouseX+","+mouseY, 10, 10);
 
+  //draw instructions on canvas
   for (int i=0; i<instruction.size(); i++) {
     Command b=instruction.get(i);
     noFill();
@@ -74,10 +75,7 @@ void draw() {
     b.display(mouseX, mouseY);
   }
 
-  //  for (int i=0; i<codeHeader.length; i++) {
-  //    text(codeHeader[i], 10, i*20);
-  //  }
-
+  //to remove commands for now
   if (keyPressed) {
     if (instruction.size()>0) {
       instruction.remove(instruction.size()-1);

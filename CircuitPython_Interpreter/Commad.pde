@@ -10,11 +10,13 @@ class Command {
   PVector pos = new PVector(-100, -100, 0);//display position
   PVector posAnt=new PVector(0, 0, 0);//display position of previous
 
+  //first argument is an image, second is the code
+  //that will be written
   Command(PImage i,String c) {
     code= split(c,":");
     img = i;
   }
-
+  //display icon image
   void display(int x, int y) {
     pushMatrix();
     translate(x, y);
