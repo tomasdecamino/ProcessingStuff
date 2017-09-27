@@ -1,3 +1,8 @@
+/* @author: Tomas de Camino Beck
+ @version: 1.0 Sep 2017
+ www.funcostarica.org
+ */
+ 
 class Command {
   PImage img;//img for display pouposes
   int s =100; //size

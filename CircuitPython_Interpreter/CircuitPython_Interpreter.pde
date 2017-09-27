@@ -1,7 +1,6 @@
 /* @author: Tomas de Camino Beck
- @version: 1.0 Jan 2016
- www.inventoria.org
- Hecho en Costa Rica
+ @version: 1.0 Sep 2017
+ www.funcostarica.org
  */
 
 PImage headerImg;//Image on top
