@@ -1,14 +1,14 @@
 // @author: Tomas de Camino Beck
 
-int nTree=5000;
+int nTree=100;
 
 TTree[] tree;
 
 void setup() {
-  size(1000, 1000, P3D);
+  size(1000, 700, P3D);
   tree = new TTree[nTree];
   for (int i=0; i<nTree; i++) {
-    tree[i] = new TTree(random(-1000, 1000), random(-1000, 1000), 0, (int) random(5, 25), (int)random(2));
+    tree[i] = new TTree(random(-300, 100), random(-300, 100), 0, (int) random(5, 35), (int)random(2));
   }
   smooth(8);
   rectMode(CENTER);
@@ -28,7 +28,7 @@ void draw() {
   spotLight(255, 255, 255, width/2, height/2, 200, 0, -1, 0, -1.2, 1);
   stroke(255);
   fill(150, 255);
-  rect(0, 0, 1500, 1500);
+  rect(-100, -100, 500, 500);
   for (int i=0; i<nTree; i++) {
     tree[i].drawTree();
   }

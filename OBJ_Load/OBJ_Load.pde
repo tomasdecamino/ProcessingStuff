@@ -9,10 +9,10 @@ void setup() {
   size(800, 800, P3D);
   // The file "bot.obj" must be in the data folder
   // of the current sketch to load successfully
-  s = loadShape("3DScan_2.obj");
+  s = loadShape("3DScan_1.obj");
   s.setFill(color(255, 200, 100));  
   //data points are ordered nippleL, nippleR, pointsL, pointsR, sternalNtochL, sternalNotchR
-  pointFile = loadStrings("data_2.csv");
+  pointFile = loadStrings("data_1.csv");
 
   //get points from file
   for (int i=0; i<pointFile.length; i++) {
