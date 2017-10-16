@@ -5,7 +5,7 @@ int a=300;
 void setup() {
   size(500, 500, P3D);
   s = loadShape("sn.obj");
-  s.setFill(color(255, 10, 10));
+  s.setFill(color(250,170,68));
   s.scale(3);
 }
 
@@ -25,11 +25,11 @@ void draw() {
   rotateX(map(mouseY, 0, height, -TWO_PI, TWO_PI));
   strokeWeight(3);
   //rotating plane
-  stroke(255, 0, 0);
+  stroke(250, 140, 68);
   line(-a, 0, 0, a, 0, 0);
-  stroke(0, 255, 0);
+  stroke(0, 140, 168);
   line(0, -a, 0, 0, a, 0);
-  stroke(0, 0, 255);
+  stroke(0, 140, 168);
   line(0, 0, -a, 0, 0, a); 
   //Draw shape. Translate to center
   translate(0, 20, -50);
@@ -39,7 +39,7 @@ void draw() {
   //fixed plane
   pushMatrix();
   translate(width/2, height/2);
-  stroke(255);
+  stroke(255,50);
   line(-a, 0, 0, a, 0, 0);
   line(0, -a, 0, 0, a, 0);
   line(0, 0, -a, 0, 0, a); 
@@ -51,6 +51,6 @@ void draw() {
     println(mX);
   }
   if (mousePressed) {
-    //saveFrame("frames/####.jpg");
+    saveFrame("frames/####.tif");
   }
 }

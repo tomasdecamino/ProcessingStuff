@@ -1,11 +1,3 @@
-/**
- * Framingham
- * by Ben Fry.
- *
- * Show subsequent frames from video input as a grid. Also fun with movie files.
- */
-
-
 import processing.video.*;
 
 Capture video;
@@ -18,6 +10,9 @@ void setup() {
 
   // This the default video input, see the GettingStartedCapture 
   // example if it creates an error
+  String[] devices = Capture.list();
+  println(devices);
+
   video = new Capture(this, 640, 480);
 
   // Start capturing the images from the camera
