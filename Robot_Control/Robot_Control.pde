@@ -8,9 +8,13 @@ import processing.serial.*;
 Serial port;
 
 //load button images
+PImage imgLogo;
+
 PImage imgR, imgL, imgU, imgD;
 PImage imgNote;
 PImage imgCO, imgCC;
+PImage imgColor;
+
 PImage img2;
 PImage backimg;
 PImage eraseimg;
@@ -24,6 +28,8 @@ ArrayList<button> instruction = new ArrayList<button>();
 
 void setup() {
   //load images
+  imgLogo = loadImage("adeleLogo.png");
+  
   imgR = loadImage("arrowR.png");
   imgL = loadImage("arrowL.png");
   imgU = loadImage("arrowU.png");
@@ -35,6 +41,8 @@ void setup() {
 
   imgNote = loadImage("note.png");
 
+  imgColor = loadImage("color.png");
+
   img2 = loadImage("play.png");
   backimg = loadImage("paper.jpg");
   eraseimg = loadImage("erase.png");   
@@ -42,6 +50,8 @@ void setup() {
   imageMode(CENTER);
   textSize(26);
   textAlign(CENTER);
+  smooth(8);
+
   //Serial to bluetooth
   println(Serial.list());
   port = new Serial(this, "/dev/cu.HC-06-DevB", 9600);
@@ -110,9 +120,18 @@ void drawBaseButtons() {
   image(imgNote, 0, 0, s, s);
   popMatrix();
 
+  //color
+  pushMatrix();
+  translate(7*s+70, 60);
+  image(imgColor, 0, 0, s, s);
+  popMatrix();
+
   //Play button   
   image(img2, width-60, 60, 100, 100);
   image(eraseimg, width-60, height-60, 100, 100);
+
+  //logo
+  image(imgLogo, 55, height-20);
 }
 
 void mousePressed() 
@@ -153,6 +172,11 @@ void mousePressed()
       } 
       if (mouseX>621 && mouseX<721) {
         button b =new button('N', imgNote);
+        instruction.add(b);
+        newButton=true;
+      } 
+      if (mouseX>721 && mouseX<821) {
+        button b =new button('P', imgColor);
         instruction.add(b);
         newButton=true;
       } 
