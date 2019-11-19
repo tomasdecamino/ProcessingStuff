@@ -8,9 +8,15 @@ class PTermita {
 
   void move() {
     this.pos.add(random(-2, 2), random(-2, 2), 0);
+    wrap();
     if (miPalito!=null) {
       miPalito.pos.set(this.pos);
     }
+  }
+  
+  void wrap(){
+    pos.x = pos.x % width;
+    pos.y = pos.y % height;
   }
 
   void display() {
